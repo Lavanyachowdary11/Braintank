@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,600&family=Mulish:ital,wght@0,300;0,400;1,600&display=swap');
+
+/* font-family: 'Crimson Text',serif;
+font-family: 'Mulish',sans-serif; */
+
+@media screen and (min-width: 960px) {
+    @-webkit-keyframes floatText {
+        from {
+            text-indent: 960px;
+        }
+
+        to {
+            text-indent: -100%;
+        }
+    }
+
+
+body {
+    font-family: 'Crimson Text',serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Crimson Text',serif; 
+}
+
+.navbar {
+    padding : 10px;
+    margin :0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.nav-item :hover {   
+    background: grey;
+    color: whitesmoke;
+    border : none;
+    border-radius: 12px;
+    font-family: 'Crimson Text',serif;
+}
+
+.dropdown-item:hover {
+    background:grey;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: white;
+
+}
+
+#carouselstarting{
+    padding-top: 75px;
+}
+
+.carousel-caption {
+    font-family: 'Crimson Text',serif;
+    color: rgba(rgb(243, 2, 2), rgb(197, 240, 197), rgb(246, 246, 248), alpha);
+    text-align: left;
+    z-index: 100px;
+}
+
+.carousel-item p{
+   font-size: 1.2rem;
+}
+
+.carousel-control-prev {
+    padding-bottom: 85px;
+}
+
+.carousel-control-next {
+    padding-bottom: 85px;
+}
+
+.text-aftercarousel{
+    font-size: 1.3rem;
+}
+
+#news,#recruitment {
+    background-color: black;
+    color: white;
+    font-family: 'Crimson Text',serif;
+}
+
+.row{
+    font-family: 'Crimson Text',serif;
+    font-size :1.3rem;
+    width: 100%;
+    text-align: left;
+}
+
+.img-rounded{
+    border-radius: 50% ;
+}
+
+.container-fluid {
+    font-family: 'Crimson Text',serif;
+    font-size :1.3rem;
+}
+
+.container-fluid p {
+    font-family: 'Crimson Text',serif;
+    text-align: left;
+}
+.container-fluid img {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.footer{
+    font-family: 'Crimson Text',serif;
+    margin-top: 50px;
+    border-top :2px solid black;
+    padding-bottom: 0.1px;
+    background-color:black;
+}
+
+.footer img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer p{
+  display: flex;
+  justify-content: flex-start;
+  font-size : 1rem;
+  color: white;
+}
+
+.fixed-bottom {
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+/* COMPANY PROFILE */
+
+#greetings{
+    background-color: black;
+    color: white;
+    font-family: 'Crimson Text',serif;
+    padding-top:80px;
+}
+
+.greetings-content {
+    font-size: 1.5rem;
+    font-family: 'Crimson Text',serif;
+    text-align: left;
+}
+
+.text{
+    text-align: left;
+    padding :5px;
+}
+
+.greeting-footer {
+    background-color: lightgray;
+    border-top: 2px solid blue;
+    font-family: 'Crimson Text',serif;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.table{
+    width:50%;
+    margin-left: 130px;
+    font-family: 'Crimson Text',serif;
+    font-size:1.3rem;
+}
+
+/* CONTACT US */
+
+.contact {
+    padding-top: 10px;
+    text-align: center;
+     font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Crimson Text',serif;
+    /* background-color:#f1f3f8; */
+    /* background-color: #eeeeee; */
+    background-color: #f4f6ff;
+}
+
+.contacts-container{
+    width : 75%;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1 card{
+    height: 100px;
+}
+/* Map Container */
+
+.map-container iframe {
+    top:0%;
+    width:100%;
+    height: 100%;
+    padding-bottom: 5px;
+    display: flex;
+   align-items: flex-start;
+}
+
+
+.btn-map{
+    display: flex;
+    align-items: flex-start;
+}
+
+.mobilesOnly{
+    color: black;
+}
+
+.mobilesOnly:hover {
+    color: #000;
+}
+
+.fa:hover{
+    cursor: pointer;
+    /* background-color: rgb(0, 119, 255); */
+}
+
+}
