@@ -3,18 +3,6 @@
 /* font-family: 'Crimson Text',serif;
 font-family: 'Mulish',sans-serif; */
 
-@media screen and (min-width: 960px) {
-    @-webkit-keyframes floatText {
-        from {
-            text-indent: 960px;
-        }
-
-        to {
-            text-indent: -100%;
-        }
-    }
-
-
 body {
     font-family: 'Crimson Text',serif;
     text-align: center;
@@ -51,32 +39,71 @@ h1,h2,h3,h4,h5,h6,p {
 
 }
 
-#carouselstarting{
-    padding-top: 75px;
+@media screen and (min-width: 601px) {
+    #carouselstarting {
+       padding-top: 75px;
+    }
+    .carousel-caption {
+        font-family: 'Crimson Text', serif;
+        color: rgba(rgb(243, 2, 2), rgb(197, 240, 197), rgb(246, 246, 248), alpha);
+        text-align: left;
+        z-index: 100px;
+    }
+
+    .carousel-item p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-control-prev {
+        padding-bottom: 48px;
+    }
+
+    .carousel-control-next {
+        padding-bottom: 48px;
+    }
+
 }
 
-.carousel-caption {
-    font-family: 'Crimson Text',serif;
-    color: rgba(rgb(243, 2, 2), rgb(197, 240, 197), rgb(246, 246, 248), alpha);
-    text-align: left;
-    z-index: 100px;
+@media screen and (max-width: 600px) {
+    #carouselstarting {
+        padding-top: 60px;
+    }
+
+    .carousel-caption {
+        font-family: 'Crimson Text', serif;
+        color:white;
+        text-align: left;
+        z-index: 120px;
+         height:95%;
+         padding-top: 30px;
+         padding-bottom: 15px;
+    }
+
+    .carousel-item p {
+        font-size: 1rem;
+    }
+
+    .carousel-item a {
+      font-size: 0.5px;
+    }
+
+    .carousel-item h3{
+        font-size: 1.3rem;
+    }
+
+    .carousel-control-prev {
+        padding-bottom: 38px;
+    }
+
+    .carousel-control-next {
+        padding-bottom: 38px;
+    }
 }
 
-.carousel-item p{
-   font-size: 1.2rem;
-}
-
-.carousel-control-prev {
-    padding-bottom: 85px;
-}
-
-.carousel-control-next {
-    padding-bottom: 85px;
-}
-
-.text-aftercarousel{
+.text-aftercarousel {
     font-size: 1.3rem;
 }
+
 
 #news,#recruitment {
     background-color: black;
@@ -226,4 +253,3 @@ h1,h2,h3,h4,h5,h6,p {
     /* background-color: rgb(0, 119, 255); */
 }
 
-}
